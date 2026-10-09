@@ -1,11 +1,11 @@
 html {
   font-size: 18px;
-  background:  #414094;
+  background:  #000000;
   background-size: cover;
 }
 
 p, #eachRoundResult {
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: 'Karla', sans-serif;
 }
 
@@ -13,7 +13,7 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: 'Varela Round', sans-serif;
-  color: #ffffff;
+  color: #f9fafa;
 }
 
 #buttons {
@@ -38,17 +38,17 @@ button {
   text-align: center;
   cursor: pointer;
   border-radius: 30px;
-  background-color: #eb72b4;
-  color: #7632ad;
-  border: 5px solid #f31746;
+  background-color: #6f4a99;
+  color: #e2dbe7;
+  border: 5px solid #ff033a;
   outline: none;  
 }
 
 button:hover {
   border: 5px solid #b141f1;
   box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-  color: #ec3b70;
-  background-color: #206bc2;
+  color: #00fff2;
+  background-color: #508acc;
 }
 
 button i {
@@ -71,12 +71,12 @@ table {
 }
 
 #results {
-  background-color: #ec3b70;
+  background-color: #01d9ff;
   border-radius: 5px;
 }
 
 th {
-  background-color: #206bc2;
+  background-color: #0a5586;
   font-size: 20px;
   border-radius: 5px;
 }
